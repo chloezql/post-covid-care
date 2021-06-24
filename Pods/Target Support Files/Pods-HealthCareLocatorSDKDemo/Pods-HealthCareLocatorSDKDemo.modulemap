@@ -1,0 +1,6 @@
+framework module Pods_HealthCareLocatorSDKDemo {
+  umbrella header "Pods-HealthCareLocatorSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
