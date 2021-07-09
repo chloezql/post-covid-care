@@ -1,4 +1,4 @@
-# post-covid-care
+# Healer : post-covid care
 
 ## Instruction
  - Download this package in zip, open this project in xCode. Update your team and identifier info in > Signing&Capabilities (Make sure you already have a development account.)
