@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58A364882555081E00C62479"
-               BuildableName = "HealthCareLocatorSDKDemo.app"
+               BuildableName = "Healer.app"
                BlueprintName = "HealthCareLocatorSDKDemo"
                ReferencedContainer = "container:HealthCareLocatorSDKDemo.xcodeproj">
             </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58A364882555081E00C62479"
-            BuildableName = "HealthCareLocatorSDKDemo.app"
+            BuildableName = "Healer.app"
             BlueprintName = "HealthCareLocatorSDKDemo"
             ReferencedContainer = "container:HealthCareLocatorSDKDemo.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58A364882555081E00C62479"
-            BuildableName = "HealthCareLocatorSDKDemo.app"
+            BuildableName = "Healer.app"
             BlueprintName = "HealthCareLocatorSDKDemo"
             ReferencedContainer = "container:HealthCareLocatorSDKDemo.xcodeproj">
          </BuildableReference>

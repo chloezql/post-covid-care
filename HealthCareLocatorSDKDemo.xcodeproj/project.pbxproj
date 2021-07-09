@@ -15,6 +15,11 @@
 		021F27422684437C004753EA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F27412684437C004753EA /* Utilities.swift */; };
 		021F27462684488E004753EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F27452684488E004753EA /* Constants.swift */; };
 		021F274826844DF5004753EA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F274726844DF5004753EA /* FirstViewController.swift */; };
+		021F274C26851E4F004753EA /* InfoPageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F274B26851E4E004753EA /* InfoPageOneViewController.swift */; };
+		021F274E26858385004753EA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F274D26858384004753EA /* CollectionViewCell.swift */; };
+		025525AD2686856A00266444 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025525AC2686856A00266444 /* CardView.swift */; };
+		025525AF2686874C00266444 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025525AE2686874C00266444 /* HomePageViewController.swift */; };
+		025525B1268693A700266444 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025525B0268693A700266444 /* CalendarViewController.swift */; };
 		3E60696C477506A3DAC2F222 /* Pods_HealthCareLocatorSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D33EF899D7351C1F10ED1 /* Pods_HealthCareLocatorSDKDemo.framework */; };
 		5805F980255A5CB400D93CD0 /* burger-menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 5805F97F255A5CB400D93CD0 /* burger-menu.json */; };
 		5817E9F225711AD4001F33B6 /* DefaultThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817E9F125711AD4001F33B6 /* DefaultThemesViewController.swift */; };
@@ -117,6 +122,11 @@
 		021F27412684437C004753EA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		021F27452684488E004753EA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		021F274726844DF5004753EA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		021F274B26851E4E004753EA /* InfoPageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageOneViewController.swift; sourceTree = "<group>"; };
+		021F274D26858384004753EA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		025525AC2686856A00266444 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		025525AE2686874C00266444 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		025525B0268693A700266444 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		15D112836053049D056422B6 /* Pods_HCLDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCLDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		379895C675149420670F8499 /* Pods-HealthCareLocatorSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCareLocatorSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-HealthCareLocatorSDKDemo/Pods-HealthCareLocatorSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		399AF90EAE812EE0283D7585 /* Pods-HCLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCLDemo.release.xcconfig"; path = "Target Support Files/Pods-HCLDemo/Pods-HCLDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +147,7 @@
 		5895536E2595ACD600DDE2FF /* Specialities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialities.swift; sourceTree = "<group>"; };
 		5898C2622580BF4C00D983B5 /* FontMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMapping.swift; sourceTree = "<group>"; };
 		5898C2672580C6DA00D983B5 /* FontSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSettingsTableViewCell.swift; sourceTree = "<group>"; };
-		58A364892555081E00C62479 /* HealthCareLocatorSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCareLocatorSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A364892555081E00C62479 /* Healer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A3648C2555081E00C62479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58A3648E2555081E00C62479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58A364902555081E00C62479 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +218,25 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		021F274926851D99004753EA /* InfoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				021F274B26851E4E004753EA /* InfoPageOneViewController.swift */,
+				021F274D26858384004753EA /* CollectionViewCell.swift */,
+			);
+			path = InfoControllers;
+			sourceTree = "<group>";
+		};
+		021F274A26851DB3004753EA /* DailyUpdate&homePages */ = {
+			isa = PBXGroup;
+			children = (
+				025525AC2686856A00266444 /* CardView.swift */,
+				025525AE2686874C00266444 /* HomePageViewController.swift */,
+				025525B0268693A700266444 /* CalendarViewController.swift */,
+			);
+			path = "DailyUpdate&homePages";
+			sourceTree = "<group>";
+		};
 		5805F97E255A5CB400D93CD0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,7 +263,7 @@
 		58A3648A2555081E00C62479 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58A364892555081E00C62479 /* HealthCareLocatorSDKDemo.app */,
+				58A364892555081E00C62479 /* Healer.app */,
 				58F32B5925CA631F006C6F8A /* HCLDemo.app */,
 			);
 			name = Products;
@@ -243,6 +272,8 @@
 		58A3648B2555081E00C62479 /* HealthCareLocatorSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				021F274A26851DB3004753EA /* DailyUpdate&homePages */,
+				021F274926851D99004753EA /* InfoControllers */,
 				021F273926843A53004753EA /* AuthenticationControllers */,
 				58B820BF256F70770005DA26 /* Commons */,
 				58D10D56255E735D008471F3 /* Settings */,
@@ -370,7 +401,7 @@
 			);
 			name = HealthCareLocatorSDKDemo;
 			productName = OneKeySDKDemo;
-			productReference = 58A364892555081E00C62479 /* HealthCareLocatorSDKDemo.app */;
+			productReference = 58A364892555081E00C62479 /* Healer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		58F32B2225CA631F006C6F8A /* HCLDemo */ = {
@@ -550,6 +581,7 @@
 				5898C2632580BF4C00D983B5 /* FontMapping.swift in Sources */,
 				58D10D52255E7354008471F3 /* CustomThemeViewController.swift in Sources */,
 				58351B4725CD0B10007DE500 /* Language.swift in Sources */,
+				021F274E26858385004753EA /* CollectionViewCell.swift in Sources */,
 				58D10D3C255E4941008471F3 /* DetailTableViewCell.swift in Sources */,
 				5898C2682580C6DA00D983B5 /* FontSettingsTableViewCell.swift in Sources */,
 				021F27462684488E004753EA /* Constants.swift in Sources */,
@@ -558,6 +590,7 @@
 				58F5EE07255BA5BA0029B0B4 /* SearchViewController.swift in Sources */,
 				58B9620E255D4BC3000B126D /* ColorPickerWrapperViewController.swift in Sources */,
 				58A8A56F25623A2900A11F88 /* FontMenuTableViewCell.swift in Sources */,
+				025525AD2686856A00266444 /* CardView.swift in Sources */,
 				58A8A574256241CF00A11F88 /* CustomFontViewController.swift in Sources */,
 				58A8A5832562750600A11F88 /* ConfigFont.swift in Sources */,
 				588A99C42574AF9B002BCC74 /* ToogleMenuTableViewCell.swift in Sources */,
@@ -571,6 +604,7 @@
 				58B96201255D44C2000B126D /* TextMenuTableViewCell.swift in Sources */,
 				021F273B26843AAE004753EA /* SignUpViewController.swift in Sources */,
 				58D10D28255E47A1008471F3 /* Theme.swift in Sources */,
+				021F274C26851E4F004753EA /* InfoPageOneViewController.swift in Sources */,
 				582BBE04257FA8A6009BC23E /* Theme+Additional.swift in Sources */,
 				5843945E25594D2B009D2306 /* MenuTableViewController.swift in Sources */,
 				021F273D26843AC8004753EA /* LogInViewController.swift in Sources */,
@@ -585,8 +619,10 @@
 				58BA6113255E459900696AA1 /* MenuSection.swift in Sources */,
 				5888D27A2581DA9900FA5539 /* Sequence+Additional.swift in Sources */,
 				58B961DB255CF7C2000B126D /* SettingsViewController.swift in Sources */,
+				025525AF2686874C00266444 /* HomePageViewController.swift in Sources */,
 				5817E9F225711AD4001F33B6 /* DefaultThemesViewController.swift in Sources */,
 				5836DD6425935B4D002F776D /* LanguagesViewController.swift in Sources */,
+				025525B1268693A700266444 /* CalendarViewController.swift in Sources */,
 				021F274826844DF5004753EA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,7 +827,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PostCovidCare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Healer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -812,7 +848,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PostCovidCare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Healer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
