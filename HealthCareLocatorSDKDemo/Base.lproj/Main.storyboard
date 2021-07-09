@@ -252,7 +252,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hbY-ms-x9X" kind="presentation" modalPresentationStyle="fullScreen" id="cNV-ce-RGg"/>
+                                    <segue destination="Jf8-sK-NNg" kind="modal" id="UKq-dh-ud1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVF-Lu-RxZ">
@@ -305,11 +305,11 @@ Healthcare Profile</string>
             <objects>
                 <viewController id="CAJ-K0-Lu8" customClass="CalendarViewController" customModule="HCLDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kzd-7j-ok7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4t-JP-rYL" customClass="CardView" customModule="HealthCareLocatorSDKDemo">
-                                <rect key="frame" x="20" y="244" width="374" height="110"/>
+                                <rect key="frame" x="20" y="200" width="374" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfh-Pf-Xoh">
                                         <rect key="frame" x="166" y="8" width="69" height="21"/>
@@ -346,17 +346,17 @@ Healthcare Profile</string>
             <objects>
                 <viewController id="HrW-HV-lU9" customClass="HomePageViewController" customModule="HCLDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GqX-9s-aOW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, Jun 25 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vD-aD-CKL">
-                                <rect key="frame" x="40" y="118.5" width="154" height="20.5"/>
+                                <rect key="frame" x="40" y="74.5" width="154" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juu-2s-rIs">
-                                <rect key="frame" x="40" y="139" width="257" height="23"/>
+                                <rect key="frame" x="40" y="95" width="257" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="EOF-Fq-X1i"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="c8l-1x-YdG"/>
@@ -368,7 +368,7 @@ Healthcare Profile</string>
                                 <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41o-v5-LRB" customClass="CardView" customModule="HealthCareLocatorSDKDemo">
-                                <rect key="frame" x="20" y="228" width="374" height="190"/>
+                                <rect key="frame" x="20" y="184" width="374" height="190"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQS-4K-Ngc">
                                         <rect key="frame" x="132.5" y="152" width="109" height="30"/>
@@ -442,7 +442,7 @@ Healthcare Profile</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Za-4B-7YB">
-                                <rect key="frame" x="20" y="468" width="374" height="128"/>
+                                <rect key="frame" x="20" y="424" width="374" height="128"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdh-wX-X4m">
                                         <rect key="frame" x="69" y="80" width="63" height="30"/>
@@ -514,7 +514,7 @@ Healthcare Profile</string>
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.badge.plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Xj2-to-LQR">
-                                <rect key="frame" x="303.5" y="106" width="61" height="55"/>
+                                <rect key="frame" x="303.5" y="62" width="61" height="55"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
@@ -581,9 +581,6 @@ Healthcare Profile</string>
                             <state key="normal" title="Report new symptoms">
                                 <color key="titleColor" red="1" green="0.65098039220000004" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
-                            <connections>
-                                <segue destination="6Ur-Bp-w5Z" kind="presentation" id="WM2-yr-KHn"/>
-                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUt-fx-oAS">
                             <rect key="frame" x="299.5" y="44" width="19.5" height="21"/>
@@ -626,6 +623,10 @@ Healthcare Profile</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don't have any medical report yet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVb-mW-Sdx">
                                 <rect key="frame" x="110" y="146" width="194" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="194" id="0Gr-S3-PBY"/>
+                                    <constraint firstAttribute="height" constant="65" id="Irl-Dr-2Jk"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -634,10 +635,12 @@ Healthcare Profile</string>
                         <viewLayoutGuide key="safeArea" id="yKt-ue-urF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jVb-mW-Sdx" firstAttribute="leading" secondItem="yKt-ue-urF" secondAttribute="leading" constant="110" id="Hxz-gw-gos"/>
+                            <constraint firstItem="jVb-mW-Sdx" firstAttribute="leading" secondItem="yKt-ue-urF" secondAttribute="leading" constant="110" id="Nhb-b5-lML"/>
+                            <constraint firstItem="jVb-mW-Sdx" firstAttribute="top" secondItem="yKt-ue-urF" secondAttribute="top" constant="146" id="SZs-6J-MAV"/>
                             <constraint firstItem="jVb-mW-Sdx" firstAttribute="centerX" secondItem="ND8-YZ-R0E" secondAttribute="centerX" id="VNw-di-RwG"/>
                             <constraint firstItem="jVb-mW-Sdx" firstAttribute="top" secondItem="yKt-ue-urF" secondAttribute="top" constant="146" id="bTM-iQ-wkw"/>
                             <constraint firstItem="yKt-ue-urF" firstAttribute="bottom" secondItem="jVb-mW-Sdx" secondAttribute="bottom" constant="597" id="ryW-zX-WkO"/>
+                            <constraint firstItem="yKt-ue-urF" firstAttribute="bottom" secondItem="jVb-mW-Sdx" secondAttribute="bottom" constant="597" id="vbx-ZA-umC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9qW-C3-PeR"/>
@@ -651,20 +654,50 @@ Healthcare Profile</string>
             <objects>
                 <viewController id="6Ur-Bp-w5Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QMZ-ze-lTu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 47" translatesAutoresizingMaskIntoConstraints="NO" id="fYk-CE-G1R">
+                                <rect key="frame" x="0.0" y="64" width="414" height="597"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGJ-Q1-PYa">
+                                <rect key="frame" x="134" y="683" width="144" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.65098039220000004" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UgM-WS-7eV">
+                                <rect key="frame" x="87" y="190" width="240" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="E3Y-YR-vZd">
+                                        <rect key="frame" x="0.0" y="24.5" width="240" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E3Y-YR-vZd" id="uQd-2y-cYu">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pg2-eo-w5F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSU-Qr-Afe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-591" y="1951"/>
+            <point key="canvasLocation" x="-591.304347826087" y="1950.6696428571427"/>
         </scene>
         <!--Info Page One View Controller-->
         <scene sceneID="xYF-7O-ab0">
             <objects>
-                <viewController id="hbY-ms-x9X" customClass="InfoPageOneViewController" customModule="HealthCareLocatorSDKDemo" sceneMemberID="viewController">
+                <viewController id="hbY-ms-x9X" customClass="InfoPageOneViewController" customModule="HCLDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WcF-K3-BQw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -925,16 +958,17 @@ Healthcare Profile</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SecondPage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isS-2c-MiM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="SecondPage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isS-2c-MiM">
                                 <rect key="frame" x="159" y="438" width="97" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDJ-Yi-WfJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDJ-Yi-WfJ">
                                 <rect key="frame" x="158" y="776" width="98" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="2Ep-Vb-Rpx"/>
+                                </constraints>
                                 <state key="normal" title="next"/>
                                 <connections>
                                     <segue destination="4T8-Yd-9xt" kind="show" id="yVe-Ki-m4u"/>
@@ -943,6 +977,13 @@ Healthcare Profile</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IY5-Mp-bSh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KDJ-Yi-WfJ" firstAttribute="trailing" secondItem="isS-2c-MiM" secondAttribute="trailing" id="IBs-qe-186"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="KDJ-Yi-WfJ" secondAttribute="bottom" constant="-13" id="LEb-Cg-29a"/>
+                            <constraint firstItem="KDJ-Yi-WfJ" firstAttribute="centerX" secondItem="0te-Su-jnG" secondAttribute="centerX" id="Lpt-ui-p3G"/>
+                            <constraint firstItem="KDJ-Yi-WfJ" firstAttribute="centerX" secondItem="isS-2c-MiM" secondAttribute="centerX" id="Nnc-L4-1wE"/>
+                            <constraint firstItem="KDJ-Yi-WfJ" firstAttribute="leading" secondItem="IY5-Mp-bSh" secondAttribute="leading" constant="158" id="OHc-CJ-Hju"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KtX-NP-Nno"/>
                 </viewController>
@@ -965,9 +1006,8 @@ Healthcare Profile</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgv-hj-aiA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgv-hj-aiA">
                                 <rect key="frame" x="180" y="771" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="Jf8-sK-NNg" kind="presentation" modalPresentationStyle="fullScreen" id="1eV-XH-X7c"/>
@@ -976,6 +1016,11 @@ Healthcare Profile</string>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XF0-0a-VDT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XF0-0a-VDT" firstAttribute="bottom" secondItem="Wgv-hj-aiA" secondAttribute="bottom" constant="7" id="2Sc-Bb-WlJ"/>
+                            <constraint firstItem="XF0-0a-VDT" firstAttribute="trailing" secondItem="Wgv-hj-aiA" secondAttribute="trailing" constant="91" id="7Gm-Jv-Smh"/>
+                            <constraint firstItem="Wgv-hj-aiA" firstAttribute="leading" secondItem="XF0-0a-VDT" secondAttribute="leading" constant="180" id="k1N-TW-V9V"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dzc-tn-1u3"/>
                 </viewController>
@@ -1093,7 +1138,7 @@ Healthcare Profile</string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="9c5-1h-MH8" kind="relationship" relationship="rootViewController" id="rJl-Rf-6sA"/>
+                        <segue destination="cRQ-Bw-lbr" kind="relationship" relationship="rootViewController" id="Lbg-66-bkz"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vn-ao-xZG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2599,11 +2644,11 @@ Healthcare Profile</string>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="Rnx-H7-G8A"/>
+        <segue reference="UKq-dh-ud1"/>
         <segue reference="pvZ-hD-g5U"/>
-        <segue reference="rJl-Rf-6sA"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Group 47" width="376" height="490"/>
         <image name="Person with medical mask-pana 1" width="185" height="185"/>
         <image name="Visual data-pana2 1" width="359" height="435"/>
         <image name="arrow-down" width="14.5" height="8.5"/>
